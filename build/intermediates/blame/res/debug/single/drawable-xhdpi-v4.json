@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\expandable_list_item_bg_normal.xml",
+        "source": "E:\\P&GSupervisor\\godrej\\src\\main\\res\\drawable-xhdpi\\expandable_list_item_bg_normal.xml"
+    },
+    {
+        "merged": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_item_bg_normal.xml",
+        "source": "E:\\P&GSupervisor\\godrej\\src\\main\\res\\drawable-xhdpi\\list_item_bg_normal.xml"
+    }
+]

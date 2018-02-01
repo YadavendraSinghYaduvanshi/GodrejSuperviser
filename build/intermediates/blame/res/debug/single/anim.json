@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\yadavendras.CPMIN\\.android\\build-cache\\5456f83b7ff07360b7e97bfd3b520582efffc4ba\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\yadavendras.CPMIN\\.android\\build-cache\\5456f83b7ff07360b7e97bfd3b520582efffc4ba\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\res\\merged\\debug\\anim\\alpha.xml",
+        "source": "E:\\P&GSupervisor\\godrej\\src\\main\\res\\anim\\alpha.xml"
+    },
+    {
+        "merged": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\yadavendras.CPMIN\\.android\\build-cache\\bcec6de4a75cca00516d3122b7f31cfeea723056\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\yadavendras.CPMIN\\.android\\build-cache\\5456f83b7ff07360b7e97bfd3b520582efffc4ba\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\yadavendras.CPMIN\\.android\\build-cache\\5456f83b7ff07360b7e97bfd3b520582efffc4ba\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\res\\merged\\debug\\anim\\activity_in.xml",
+        "source": "E:\\P&GSupervisor\\godrej\\src\\main\\res\\anim\\activity_in.xml"
+    },
+    {
+        "merged": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\yadavendras.CPMIN\\.android\\build-cache\\5456f83b7ff07360b7e97bfd3b520582efffc4ba\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\yadavendras.CPMIN\\.android\\build-cache\\5456f83b7ff07360b7e97bfd3b520582efffc4ba\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\yadavendras.CPMIN\\.android\\build-cache\\bcec6de4a75cca00516d3122b7f31cfeea723056\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\yadavendras.CPMIN\\.android\\build-cache\\5456f83b7ff07360b7e97bfd3b520582efffc4ba\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\yadavendras.CPMIN\\.android\\build-cache\\5456f83b7ff07360b7e97bfd3b520582efffc4ba\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_bottom.xml",
+        "source": "E:\\P&GSupervisor\\godrej\\src\\main\\res\\anim\\slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\yadavendras.CPMIN\\.android\\build-cache\\bcec6de4a75cca00516d3122b7f31cfeea723056\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\res\\merged\\debug\\anim\\translate.xml",
+        "source": "E:\\P&GSupervisor\\godrej\\src\\main\\res\\anim\\translate.xml"
+    },
+    {
+        "merged": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\yadavendras.CPMIN\\.android\\build-cache\\bcec6de4a75cca00516d3122b7f31cfeea723056\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\yadavendras.CPMIN\\.android\\build-cache\\5456f83b7ff07360b7e97bfd3b520582efffc4ba\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\res\\merged\\debug\\anim\\activity_back_in.xml",
+        "source": "E:\\P&GSupervisor\\godrej\\src\\main\\res\\anim\\activity_back_in.xml"
+    },
+    {
+        "merged": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\res\\merged\\debug\\anim\\activity_out.xml",
+        "source": "E:\\P&GSupervisor\\godrej\\src\\main\\res\\anim\\activity_out.xml"
+    },
+    {
+        "merged": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\yadavendras.CPMIN\\.android\\build-cache\\5456f83b7ff07360b7e97bfd3b520582efffc4ba\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\res\\merged\\debug\\anim\\activity_back_out.xml",
+        "source": "E:\\P&GSupervisor\\godrej\\src\\main\\res\\anim\\activity_back_out.xml"
+    }
+]
