@@ -19,19 +19,15 @@
             android:background="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme.PopupOverlay">
-
         </android.support.v7.widget.Toolbar>
 
     </android.support.design.widget.AppBarLayout>
-
-
     <android.support.v7.widget.RecyclerView
         android:id="@+id/drawer_layout_recycle"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="5dp"
+        android:layout_margin="4dp"
         >
-
     </android.support.v7.widget.RecyclerView>
 
 </LinearLayout>

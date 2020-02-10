@@ -8,9 +8,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.cpm.capitalfoods.R;
+import com.cpm.godrejsupervisor.R;
 import com.cpm.download.CompleteDownloadActivity;
-import com.cpm.PnGSupervisor.MainMenuActivity;
+import com.cpm.GodrejSupervisor.MainMenuActivity;
 
 /**
  * A simple {@link Fragment} subclass.

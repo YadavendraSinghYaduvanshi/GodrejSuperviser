@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
 
-        android:src="@drawable/capital_logo" />
+        />
 
     <TextView
         android:layout_width="match_parent"

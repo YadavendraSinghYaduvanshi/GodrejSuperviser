@@ -11,8 +11,8 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
 
-import com.cpm.capitalfoods.R;
-import com.cpm.PnGSupervisor.MainMenuActivity;
+import com.cpm.godrejsupervisor.R;
+import com.cpm.GodrejSupervisor.MainMenuActivity;
 
 public class ShowUpdateActivity extends Activity {
 
@@ -70,7 +70,7 @@ public class ShowUpdateActivity extends Activity {
 	public void onBackPressed() {
 		// TODO Auto-generated method stub
 		super.onBackPressed();
-		Intent i = new Intent(ShowUpdateActivity.this, com.cpm.PnGSupervisor.LoginActivity.class);
+		Intent i = new Intent(ShowUpdateActivity.this, com.cpm.GodrejSupervisor.LoginActivity.class);
 		startActivity(i);
 		ShowUpdateActivity.this.finish();
 

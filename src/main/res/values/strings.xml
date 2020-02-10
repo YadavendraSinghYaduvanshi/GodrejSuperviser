@@ -21,6 +21,17 @@
     <string name="Material_wellness_thawed_quantity">Thawed Qty</string>
     <string name="As_Per_Mccain">As Per Mccain</string>
 
+    <!-- Strings related to login -->
+    <string name="prompt_user_id">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_saleteam_trainner">Please Enter Trainee Name</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
     <string name="total_calls">Total Calls</string>
     <string name="productive_calls">Productive Calls</string>
 
@@ -76,5 +87,26 @@
     <string name="title_activity_additional_poi">AdditionalPOIActivity</string>
     <string name="title_activity_attendence">Attendance Activity</string>
 
+    <!-- ////////for store list-->
+    <string name="title_store_list_activity_store_already_done">Store Already Uploaded</string>
+    <string name="title_store_list_activity_store_data_uploaded">Store Data Uploaded</string>
+    <string name="title_store_list_activity_store_already_checkout">Store Already Checkout</string>
+    <string name="title_store_list_activity_store_again_uploaded">Please Upload data again</string>
+    <string name="title_store_list_activity_store_closed">Store Closed</string>
+    <string name="title_store_list_activity_already_store_closed">Store Already Closed</string>
+    <string name="title_store_list_checkout_Already_filled">Data already filled</string>
+    <string name="title_store_list_checkout_current">Please checkout from current store</string>
+    <string name="nonetwork"> No Network Connection. Please Check Your Internet Connection</string>
+    <string name="geotag"> Store already GEOTAG</string>
+    <string name="previousupload"> Please Upload Previous Data First</string>
+    <string name="checkout"> Are you sure you want to Checkout</string>
+    <string name="title_activity_visitor_login">Visitor Login</string>
+    <string name="export_database">Export Database</string>
+    <string name="Areyou_sure_take_backup"> Are you sure you want to take the backup of your data ?</string>
+    <string name="errordatabase_not_exporting">Error in database exporting</string>
+    <string name="alertsaveData"> Are you sure you want to save data ?</string>
+    <string name="parinaam">Parinaam</string>
+    <string name="alert_checkout">Do you want to checkout ?</string>
+    <string name="alert_save">Do you want to save data ?</string>
 
 </resources>

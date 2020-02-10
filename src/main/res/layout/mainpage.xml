@@ -63,7 +63,6 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="30"
-            android:background="@drawable/download"
             android:onClick="onButtonClick" >
         </Button>
 
@@ -159,7 +158,6 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="30"
-            android:background="@drawable/my_performance"
             android:onClick="onButtonClick"
             android:visibility="invisible" >
         </Button>
@@ -174,7 +172,6 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="30"
-            android:background="@drawable/exit_ico"
             android:onClick="onButtonClick"
             android:visibility="gone" >
         </Button>

@@ -1,67 +1,11 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\GodrejSuperviser\\godrej\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "outputFile": "E:\\NeerajProjects\\GodrejSuperviser\\GodrejSuperviser\\godrej\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\yadavendras\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.1.aar\\0d40842c3bf8da7b61a2b6326128c6d2\\res\\values-hdpi\\values-hdpi.xml",
+                    "source": "C:\\Users\\neerajg\\.gradle\\caches\\transforms-2\\files-2.1\\b61794e8eed9e5825c204c7ff03668e5\\appcompat-v7-28.0.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "235",
-                        "endLines": "8",
-                        "endColumns": "13",
-                        "endOffsets": "507"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "6",
-                        "endColumns": "13",
-                        "endOffsets": "327"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "E:\\P&GSupervisor\\godrej\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\yadavendras.CPMIN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.1.aar\\8ff9ce20ba20511bf6b80756ca7fd955\\res\\values-hdpi\\values-hdpi.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "235",
-                        "endLines": "8",
-                        "endColumns": "13",
-                        "endOffsets": "507"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "6",
-                        "endColumns": "13",
-                        "endOffsets": "327"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "E:\\GodrejSuperviser\\godrej\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\yadavendras.CPMIN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.1.aar\\8ff9ce20ba20511bf6b80756ca7fd955\\res\\values-hdpi\\values-hdpi.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "235",
-                        "endLines": "8",
-                        "endColumns": "13",
-                        "endOffsets": "507"
-                    },
-                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cpm.capitalfoods"
-    android:versionCode="4"
-    android:versionName="1.3">
+    package="com.cpm.godrejsupervisor"
+    android:versionCode="8"
+    android:versionName="1.7">
 
-    <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="21" />
+    <uses-sdk android:targetSdkVersion="21" />
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -18,21 +16,19 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
-
-
     <uses-permission android:name="android.permission.CAMERA" />
-
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
-
     <application
         android:allowBackup="true"
-        android:icon="@drawable/parinaam_logo_ico"
+        android:icon="@drawable/godrej_logo"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity
-            android:name="com.cpm.PnGSupervisor.SplashScreenActivity"
+            android:name="com.cpm.GodrejSupervisor.SplashScreenActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -46,9 +42,6 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="com.cpm.web.ShowUpdateActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.cpm.PnGSupervisor.MainActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.cpm.download.CompleteDownloadActivity"
@@ -67,142 +60,96 @@
             android:name="com.cpm.upload.CheckoutNUpload"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.cpm.upload.UploadAllImageActivity"
-            android:screenOrientation="portrait" />
-        <activity
             android:name="com.cpm.dailyentry.StoreEntry"
             android:label="Store Entry"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.cpm.dailyentry.StoreType"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.cpm.dailyentry.DeepFreezerActivity"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name="com.cpm.dailyentry.MccainType"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.cpm.dailyentry.OpeningStock"
-            android:configChanges="screenSize|orientation|keyboardHidden"
-            android:label="Stock Availability/Opening Stock"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name="com.cpm.dailyentry.ClosingStock"
-            android:configChanges="screenSize|orientation|keyboardHidden"
-            android:label=" Stock Availability/Closing Stock"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name="com.cpm.dailyentry.MidDayStock"
-            android:configChanges="screenSize|orientation|keyboardHidden"
-            android:label="Stock Availability/Midday Stock"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name="com.cpm.dailyentry.PromotionActivity"
-            android:configChanges="screenSize|orientation|keyboardHidden"
-            android:label="Promotion"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name="com.cpm.dailyentry.AssetActivity"
-            android:configChanges="screenSize|orientation|keyboardHidden"
-            android:label="Asset"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
             android:name="com.cpm.dailyentry.NonWorkingReason"
             android:screenOrientation="portrait" />
-        <activity
-            android:name="com.cpm.dailyentry.FoodStore"
-            android:configChanges="screenSize|orientation|keyboardHidden"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name="com.cpm.dailyentry.FacingCompetitor"
-            android:configChanges="screenSize|orientation|keyboardHidden"
-            android:label="Facing Competitor"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name="com.cpm.dailyentry.UploadSelect"
-            android:configChanges="screenSize|orientation|keyboardHidden"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan" />
         <activity
             android:name="com.cpm.dailyentry.CheckOutStoreActivity"
             android:configChanges="screenSize|orientation|keyboardHidden"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="com.cpm.dailyentry.CallsActivity"
-            android:configChanges="screenSize|orientation|keyboardHidden"
-            android:label="Calls"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name="com.cpm.dailyentry.Performance"
-            android:configChanges="screenSize|orientation|keyboardHidden"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name="com.cpm.PnGSupervisor.MenuActivity"
-            android:label="@string/title_activity_menu"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.cpm.PnGSupervisor.MainMenuActivity"
+            android:name="com.cpm.GodrejSupervisor.MainMenuActivity"
             android:label="Main Menu"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
-            android:name="com.cpm.PnGSupervisor.LoginActivity"
+            android:name="com.cpm.dailyentry.VisitorLoginActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/title_activity_visitor_login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+
+        <activity
+            android:name="com.cpm.GodrejSupervisor.LoginActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.cpm.dailyentry.CompetionMenuActivity"
-            android:label="@string/title_activity_competion_menu"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.cpm.dailyentry.CompetitionFaceupActivity"
-            android:configChanges="screenSize|orientation|keyboardHidden"
-            android:label="@string/title_activity_competition_faceup"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.cpm.dailyentry.CompetitionAditionalPOIActivity"
-            android:configChanges="screenSize|orientation|keyboardHidden"
-            android:label="Additional POI"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name="com.cpm.dailyentry.CompetitionPromotionsActivity"
-            android:configChanges="screenSize|orientation|keyboardHidden"
-            android:label="Promotion"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name="com.cpm.dailyentry.AdditionalPOIActivity"
-            android:configChanges="screenSize|orientation|keyboardHidden"
-            android:label="Additional POI"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:windowSoftInputMode="adjustPan" />
         <activity
             android:name="com.cpm.dailyentry.AttendenceActivity"
             android:configChanges="screenSize|orientation|keyboardHidden"
             android:label="@string/title_activity_attendence"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.cpm.dailyentry.StoreImageActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/title_activity_attendence"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.cpm.dailyentry.StoreAuditActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/title_activity_attendence"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
 
-        </activity>
+        <activity
+            android:name="com.cpm.dailyentry.StoreListUsingSerarchActivrty"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/title_activity_attendence"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- ///for custom camera -->
+        <activity
+            android:name="io.github.memfis19.annca.internal.ui.camera.Camera1Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeFullscreen" />
+        <activity
+            android:name="io.github.memfis19.annca.internal.ui.camera2.Camera2Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeFullscreen" />
+        <activity
+            android:name="io.github.memfis19.annca.internal.ui.preview.PreviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeFullscreen" />
+
+        <meta-data
+            android:name="firebase_crashlytics_collection_enabled"
+            android:value="false" />
+
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+
+
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
     </application>
 
 </manifest>

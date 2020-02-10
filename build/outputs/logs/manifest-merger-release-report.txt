@@ -1,437 +1,811 @@
 -- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:137:9-147:20
+	android:grantUriPermissions
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:141:13-47
+	android:authorities
+		INJECTED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:139:13-64
+	android:exported
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:140:13-37
+	android:name
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:138:13-67
 manifest
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:2:1-208:12
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:2:1-155:12
+INJECTED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:2:1-155:12
+INJECTED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:2:1-155:12
+INJECTED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:2:1-155:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\cf97a6aa2bd30eed87f3babe56c44fb8\constraint-layout-1.0.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\e9cb7cae98cd8e4f0098bdcca3f13ce5\play-services-location-16.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\9eb280b4a45ac6f0d6bed3ad61cb0188\play-services-maps-16.0.0\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\ebf6b0a6070c3af302577ec6f4fc94df\play-services-auth-16.0.1\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\4c5557865fe96a5c1837b01a7dbb9d42\firebase-auth-16.0.5\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\d268fa51331e2c68acb24541d0fb5f39\play-services-auth-api-phone-16.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0eca66558b118fb59f9f259bcb96cc20\play-services-auth-base-16.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\d08e53c9e59953b758864c82873306af\play-services-flags-16.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\26774e56a3d91df2a8bfa4b92707d88e\firebase-auth-interop-16.0.1\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-core:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\b39388061267a79d2c4d13aee990a498\firebase-core-16.0.4\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\46a7db3082096acee99ea3af279ec7b3\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\461a4c998ff8e990e6c49039a2aab71a\play-services-measurement-api-16.0.2\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1dab02304e43fe6421d08c046e786973\firebase-analytics-impl-16.2.2\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\bd21e47682153956043c909f9aaeb11a\firebase-iid-interop-16.0.1\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\869448017830ffd2f53a06f0d8e7014d\play-services-base-16.0.1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\6e1781e27b1b83a90d912a16e19889a5\play-services-places-placereport-16.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0687a17fea9559935267ef209e9037ab\firebase-common-16.0.3\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\558d280b88319abe242fe12f783b7f21\play-services-tasks-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1ca31ed07f7fc7d111ad25440013447f\play-services-stats-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\86f8bfe470027fa0e698fa5e51f1b7fe\firebase-measurement-connector-17.0.1\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f6a88a7340e6f5c50bd30ad65425bc3b\play-services-ads-identifier-16.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\542a160e360ec40eca1f29e7404dd432\play-services-basement-16.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1fd96db1afffbd73ce9d6e0bee6ca6bc\support-v4-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\a3ff2eca7252824f3032c9cd30bbbf87\design-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\b61794e8eed9e5825c204c7ff03668e5\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1f60f719048b650cf3a6e358b205fe14\cardview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.ksoichiro:android-observablescrollview:1.6.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\e1522fae3c16a1f02844d1da9203111c\android-observablescrollview-1.6.0\AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\9bd378115281d6c88c0cefa28e6cb511\recyclerview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\97c8adc824c76df73b7cc1e3eb47affd\multidex-1.0.1\AndroidManifest.xml:16:1-19:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f296d02545fd9a6db1a303d4f9fd8b9f\crashlytics-2.9.5\AndroidManifest.xml:2:1-19:12
+MERGED from [:annca] E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\annca\build\.transforms\12137d1ff4e131cc1c614d4436c9854c\annca-release\AndroidManifest.xml:2:1-18:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\6f264c52ea9fa3125b2cae5a9a22c4a5\support-media-compat-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\9bc577efd844d5ebf9e58436a28e9a12\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\b395baac35544c0f0137c92745b10892\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\80ced03c98e9e3d53c568b2756fb32f4\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\6580e7575e91d8a0af930d6a9ca6ebd9\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\e0cbf0b33934edb31611a72f57675b86\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\216d985d9d6df14ec96057556eebcbda\transition-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\baa2248fbb493491f0cb19866ead3fa0\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\bb0a308d2843e8772bde4f349b286c03\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\75ba98105cef72fefa7e53064ed3babf\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\87f01862e10a6465187e969ef17997c8\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\a120220645e0714000a507f2b752eee4\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\cf4e29076153789759f6595543053c84\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\860a10d3c521acfdc86c7194f3ae5dbd\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f5acad2c4d4b24a20c8394b681656af4\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\b76df1f8d19c8726d45cf4a2c1f63219\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\d741c21f4900f07a6391b2ba92aa6163\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\8bc81abe1730115e3f9b1f0e38c35356\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\12db7d496bd6795c4032f544ce6b702f\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\931477b8bc9c5dff83a5c868588ca44c\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\93c411c0c4a29490a45dc8e0ffd0727f\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\cab3d35aa7d5b4cf8bce388cfe800af1\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\ba6ea6f65b7d2306144438f4233b78c9\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\238caf9e1dbdd3b98d08b41774c29f01\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\52b711242dc20a711bf9c1fb3c40441a\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\849ba1198726868365a097b51995b68a\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\eea9ba1efb0d1baf4ea6f290bff91584\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\7cb9556a3b881e6ea6aaeecfc19c4523\crashlytics-core-2.6.4\AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\8a4730995a3d655aa4a23b1e46614d14\answers-1.4.3\AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\a77a7a92bcc979c2dcb6d14214f190d4\beta-1.2.10\AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f677dd8169d68649f6e020ab5ec8e1f9\fabric-1.4.4\AndroidManifest.xml:22:1-33:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\843fcedeb25299d029d34b8d3dbeb782\play-services-measurement-base-16.0.3\AndroidManifest.xml:2:1-9:12
+INJECTED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:2:1-155:12
+INJECTED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:2:1-155:12
+INJECTED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:2:1-155:12
 	package
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:3:5-35
-		INJECTED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml
-		INJECTED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml
+		INJECTED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml
-		INJECTED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml
-	android:versionCode
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml
-		INJECTED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml
+		INJECTED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml
+		INJECTED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml
 uses-sdk
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:23.1.1] C:\Users\yadavendras.CPMIN\.android\build-cache\bcec6de4a75cca00516d3122b7f31cfeea723056\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\yadavendras.CPMIN\.android\build-cache\5456f83b7ff07360b7e97bfd3b520582efffc4ba\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\yadavendras.CPMIN\.android\build-cache\f3c70af77bd2cef614a737ae677acdd0c8eea54e\output\AndroidManifest.xml:20:5-43
-MERGED from [com.github.ksoichiro:android-observablescrollview:1.6.0] C:\Users\yadavendras.CPMIN\.android\build-cache\7f1beaaddf8db44f8d3a1b2e24832228a744cd00\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\yadavendras.CPMIN\.android\build-cache\c1b0848c251d6a3d32747b5b04556f2c6fda75f0\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\yadavendras.CPMIN\.android\build-cache\b2bea1b90cf886c00e0e3a019fd39f1530f2eee8\output\AndroidManifest.xml:20:5-43
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:7:5-47
+INJECTED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:7:5-47
+INJECTED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:7:5-47
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\cf97a6aa2bd30eed87f3babe56c44fb8\constraint-layout-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\cf97a6aa2bd30eed87f3babe56c44fb8\constraint-layout-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\e9cb7cae98cd8e4f0098bdcca3f13ce5\play-services-location-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\e9cb7cae98cd8e4f0098bdcca3f13ce5\play-services-location-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\9eb280b4a45ac6f0d6bed3ad61cb0188\play-services-maps-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\9eb280b4a45ac6f0d6bed3ad61cb0188\play-services-maps-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\ebf6b0a6070c3af302577ec6f4fc94df\play-services-auth-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\ebf6b0a6070c3af302577ec6f4fc94df\play-services-auth-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\4c5557865fe96a5c1837b01a7dbb9d42\firebase-auth-16.0.5\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\4c5557865fe96a5c1837b01a7dbb9d42\firebase-auth-16.0.5\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\d268fa51331e2c68acb24541d0fb5f39\play-services-auth-api-phone-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\d268fa51331e2c68acb24541d0fb5f39\play-services-auth-api-phone-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0eca66558b118fb59f9f259bcb96cc20\play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0eca66558b118fb59f9f259bcb96cc20\play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\d08e53c9e59953b758864c82873306af\play-services-flags-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\d08e53c9e59953b758864c82873306af\play-services-flags-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\26774e56a3d91df2a8bfa4b92707d88e\firebase-auth-interop-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\26774e56a3d91df2a8bfa4b92707d88e\firebase-auth-interop-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\b39388061267a79d2c4d13aee990a498\firebase-core-16.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\b39388061267a79d2c4d13aee990a498\firebase-core-16.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\46a7db3082096acee99ea3af279ec7b3\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\46a7db3082096acee99ea3af279ec7b3\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\461a4c998ff8e990e6c49039a2aab71a\play-services-measurement-api-16.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\461a4c998ff8e990e6c49039a2aab71a\play-services-measurement-api-16.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1dab02304e43fe6421d08c046e786973\firebase-analytics-impl-16.2.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1dab02304e43fe6421d08c046e786973\firebase-analytics-impl-16.2.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\bd21e47682153956043c909f9aaeb11a\firebase-iid-interop-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\bd21e47682153956043c909f9aaeb11a\firebase-iid-interop-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\869448017830ffd2f53a06f0d8e7014d\play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\869448017830ffd2f53a06f0d8e7014d\play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\6e1781e27b1b83a90d912a16e19889a5\play-services-places-placereport-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\6e1781e27b1b83a90d912a16e19889a5\play-services-places-placereport-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0687a17fea9559935267ef209e9037ab\firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0687a17fea9559935267ef209e9037ab\firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\558d280b88319abe242fe12f783b7f21\play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\558d280b88319abe242fe12f783b7f21\play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1ca31ed07f7fc7d111ad25440013447f\play-services-stats-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1ca31ed07f7fc7d111ad25440013447f\play-services-stats-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\86f8bfe470027fa0e698fa5e51f1b7fe\firebase-measurement-connector-17.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\86f8bfe470027fa0e698fa5e51f1b7fe\firebase-measurement-connector-17.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f6a88a7340e6f5c50bd30ad65425bc3b\play-services-ads-identifier-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f6a88a7340e6f5c50bd30ad65425bc3b\play-services-ads-identifier-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\542a160e360ec40eca1f29e7404dd432\play-services-basement-16.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\542a160e360ec40eca1f29e7404dd432\play-services-basement-16.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1fd96db1afffbd73ce9d6e0bee6ca6bc\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1fd96db1afffbd73ce9d6e0bee6ca6bc\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\a3ff2eca7252824f3032c9cd30bbbf87\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\a3ff2eca7252824f3032c9cd30bbbf87\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\b61794e8eed9e5825c204c7ff03668e5\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\b61794e8eed9e5825c204c7ff03668e5\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1f60f719048b650cf3a6e358b205fe14\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1f60f719048b650cf3a6e358b205fe14\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.ksoichiro:android-observablescrollview:1.6.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\e1522fae3c16a1f02844d1da9203111c\android-observablescrollview-1.6.0\AndroidManifest.xml:21:5-43
+MERGED from [com.github.ksoichiro:android-observablescrollview:1.6.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\e1522fae3c16a1f02844d1da9203111c\android-observablescrollview-1.6.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\9bd378115281d6c88c0cefa28e6cb511\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\9bd378115281d6c88c0cefa28e6cb511\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\97c8adc824c76df73b7cc1e3eb47affd\multidex-1.0.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\97c8adc824c76df73b7cc1e3eb47affd\multidex-1.0.1\AndroidManifest.xml:18:5-42
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f296d02545fd9a6db1a303d4f9fd8b9f\crashlytics-2.9.5\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f296d02545fd9a6db1a303d4f9fd8b9f\crashlytics-2.9.5\AndroidManifest.xml:7:5-43
+MERGED from [:annca] E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\annca\build\.transforms\12137d1ff4e131cc1c614d4436c9854c\annca-release\AndroidManifest.xml:7:5-9:41
+MERGED from [:annca] E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\annca\build\.transforms\12137d1ff4e131cc1c614d4436c9854c\annca-release\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\6f264c52ea9fa3125b2cae5a9a22c4a5\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\6f264c52ea9fa3125b2cae5a9a22c4a5\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\9bc577efd844d5ebf9e58436a28e9a12\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\9bc577efd844d5ebf9e58436a28e9a12\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\b395baac35544c0f0137c92745b10892\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\b395baac35544c0f0137c92745b10892\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\80ced03c98e9e3d53c568b2756fb32f4\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\80ced03c98e9e3d53c568b2756fb32f4\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\6580e7575e91d8a0af930d6a9ca6ebd9\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\6580e7575e91d8a0af930d6a9ca6ebd9\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\e0cbf0b33934edb31611a72f57675b86\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\e0cbf0b33934edb31611a72f57675b86\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\216d985d9d6df14ec96057556eebcbda\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\216d985d9d6df14ec96057556eebcbda\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\baa2248fbb493491f0cb19866ead3fa0\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\baa2248fbb493491f0cb19866ead3fa0\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\bb0a308d2843e8772bde4f349b286c03\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\bb0a308d2843e8772bde4f349b286c03\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\75ba98105cef72fefa7e53064ed3babf\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\75ba98105cef72fefa7e53064ed3babf\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\87f01862e10a6465187e969ef17997c8\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\87f01862e10a6465187e969ef17997c8\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\a120220645e0714000a507f2b752eee4\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\a120220645e0714000a507f2b752eee4\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\cf4e29076153789759f6595543053c84\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\cf4e29076153789759f6595543053c84\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\860a10d3c521acfdc86c7194f3ae5dbd\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\860a10d3c521acfdc86c7194f3ae5dbd\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f5acad2c4d4b24a20c8394b681656af4\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f5acad2c4d4b24a20c8394b681656af4\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\b76df1f8d19c8726d45cf4a2c1f63219\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\b76df1f8d19c8726d45cf4a2c1f63219\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\d741c21f4900f07a6391b2ba92aa6163\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\d741c21f4900f07a6391b2ba92aa6163\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\8bc81abe1730115e3f9b1f0e38c35356\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\8bc81abe1730115e3f9b1f0e38c35356\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\12db7d496bd6795c4032f544ce6b702f\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\12db7d496bd6795c4032f544ce6b702f\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\931477b8bc9c5dff83a5c868588ca44c\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\931477b8bc9c5dff83a5c868588ca44c\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\93c411c0c4a29490a45dc8e0ffd0727f\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\93c411c0c4a29490a45dc8e0ffd0727f\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\cab3d35aa7d5b4cf8bce388cfe800af1\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\cab3d35aa7d5b4cf8bce388cfe800af1\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\ba6ea6f65b7d2306144438f4233b78c9\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\ba6ea6f65b7d2306144438f4233b78c9\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\238caf9e1dbdd3b98d08b41774c29f01\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\238caf9e1dbdd3b98d08b41774c29f01\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\52b711242dc20a711bf9c1fb3c40441a\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\52b711242dc20a711bf9c1fb3c40441a\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\849ba1198726868365a097b51995b68a\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\849ba1198726868365a097b51995b68a\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\eea9ba1efb0d1baf4ea6f290bff91584\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\eea9ba1efb0d1baf4ea6f290bff91584\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\7cb9556a3b881e6ea6aaeecfc19c4523\crashlytics-core-2.6.4\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\7cb9556a3b881e6ea6aaeecfc19c4523\crashlytics-core-2.6.4\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\8a4730995a3d655aa4a23b1e46614d14\answers-1.4.3\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\8a4730995a3d655aa4a23b1e46614d14\answers-1.4.3\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\a77a7a92bcc979c2dcb6d14214f190d4\beta-1.2.10\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\a77a7a92bcc979c2dcb6d14214f190d4\beta-1.2.10\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f677dd8169d68649f6e020ab5ec8e1f9\fabric-1.4.4\AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f677dd8169d68649f6e020ab5ec8e1f9\fabric-1.4.4\AndroidManifest.xml:27:5-43
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\843fcedeb25299d029d34b8d3dbeb782\play-services-measurement-base-16.0.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\843fcedeb25299d029d34b8d3dbeb782\play-services-measurement-base-16.0.3\AndroidManifest.xml:5:5-44
+INJECTED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:7:5-47
+INJECTED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:7:5-47
 	android:targetSdkVersion
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml
-		INJECTED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:7:15-44
+		INJECTED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml
+		INJECTED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:8:9-34
-		INJECTED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml
-		INJECTED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml
+		INJECTED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:7:5-47
+		INJECTED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:11:5-79
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\9eb280b4a45ac6f0d6bed3ad61cb0188\play-services-maps-16.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\9eb280b4a45ac6f0d6bed3ad61cb0188\play-services-maps-16.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\46a7db3082096acee99ea3af279ec7b3\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\46a7db3082096acee99ea3af279ec7b3\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1dab02304e43fe6421d08c046e786973\firebase-analytics-impl-16.2.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1dab02304e43fe6421d08c046e786973\firebase-analytics-impl-16.2.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:11:22-76
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:9:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:12:5-81
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:10:5-81
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:12:22-78
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:10:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:13:5-79
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:13:22-76
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:11:22-76
 uses-permission#android.permission.INTERNET
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:14:5-67
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\9eb280b4a45ac6f0d6bed3ad61cb0188\play-services-maps-16.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\9eb280b4a45ac6f0d6bed3ad61cb0188\play-services-maps-16.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\46a7db3082096acee99ea3af279ec7b3\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\46a7db3082096acee99ea3af279ec7b3\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1dab02304e43fe6421d08c046e786973\firebase-analytics-impl-16.2.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1dab02304e43fe6421d08c046e786973\firebase-analytics-impl-16.2.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:23:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f296d02545fd9a6db1a303d4f9fd8b9f\crashlytics-2.9.5\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f296d02545fd9a6db1a303d4f9fd8b9f\crashlytics-2.9.5\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\7cb9556a3b881e6ea6aaeecfc19c4523\crashlytics-core-2.6.4\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\7cb9556a3b881e6ea6aaeecfc19c4523\crashlytics-core-2.6.4\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\8a4730995a3d655aa4a23b1e46614d14\answers-1.4.3\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\8a4730995a3d655aa4a23b1e46614d14\answers-1.4.3\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\a77a7a92bcc979c2dcb6d14214f190d4\beta-1.2.10\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\a77a7a92bcc979c2dcb6d14214f190d4\beta-1.2.10\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f677dd8169d68649f6e020ab5ec8e1f9\fabric-1.4.4\AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f677dd8169d68649f6e020ab5ec8e1f9\fabric-1.4.4\AndroidManifest.xml:29:5-67
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:14:22-64
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:12:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:15:5-81
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:15:22-78
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:13:22-78
 uses-permission#android.permission.WRITE_SYNC_SETTINGS
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:16:5-78
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:14:5-78
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:16:22-75
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:14:22-75
 uses-permission#android.permission.WAKE_LOCK
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:17:5-68
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:15:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\46a7db3082096acee99ea3af279ec7b3\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\46a7db3082096acee99ea3af279ec7b3\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1dab02304e43fe6421d08c046e786973\firebase-analytics-impl-16.2.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1dab02304e43fe6421d08c046e786973\firebase-analytics-impl-16.2.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:17:22-65
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:15:22-65
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:18:5-75
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:16:5-75
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:18:22-72
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:16:22-72
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:19:5-80
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:17:5-80
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:19:22-77
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:17:22-77
 uses-permission#android.permission.CALL_PHONE
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:20:5-69
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:18:5-69
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:20:22-66
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:18:22-66
 uses-permission#android.permission.CAMERA
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:23:5-65
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:19:5-65
+MERGED from [:annca] E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\annca\build\.transforms\12137d1ff4e131cc1c614d4436c9854c\annca-release\AndroidManifest.xml:11:5-65
+MERGED from [:annca] E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\annca\build\.transforms\12137d1ff4e131cc1c614d4436c9854c\annca-release\AndroidManifest.xml:11:5-65
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:23:22-62
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:19:22-62
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:20:5-83
+	android:name
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:20:22-80
 uses-feature#android.hardware.camera
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:25:5-60
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:21:5-60
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:25:19-57
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:21:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:26:5-70
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:22:5-70
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:26:19-67
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:22:19-67
 application
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:29:5-206:19
-MERGED from [com.android.support:design:23.1.1] C:\Users\yadavendras.CPMIN\.android\build-cache\bcec6de4a75cca00516d3122b7f31cfeea723056\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\yadavendras.CPMIN\.android\build-cache\5456f83b7ff07360b7e97bfd3b520582efffc4ba\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\yadavendras.CPMIN\.android\build-cache\f3c70af77bd2cef614a737ae677acdd0c8eea54e\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\yadavendras.CPMIN\.android\build-cache\b2bea1b90cf886c00e0e3a019fd39f1530f2eee8\output\AndroidManifest.xml:22:5-20
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:24:5-153:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\cf97a6aa2bd30eed87f3babe56c44fb8\constraint-layout-1.0.2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\cf97a6aa2bd30eed87f3babe56c44fb8\constraint-layout-1.0.2\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\e9cb7cae98cd8e4f0098bdcca3f13ce5\play-services-location-16.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\e9cb7cae98cd8e4f0098bdcca3f13ce5\play-services-location-16.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\9eb280b4a45ac6f0d6bed3ad61cb0188\play-services-maps-16.0.0\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\9eb280b4a45ac6f0d6bed3ad61cb0188\play-services-maps-16.0.0\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\ebf6b0a6070c3af302577ec6f4fc94df\play-services-auth-16.0.1\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\ebf6b0a6070c3af302577ec6f4fc94df\play-services-auth-16.0.1\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\4c5557865fe96a5c1837b01a7dbb9d42\firebase-auth-16.0.5\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\4c5557865fe96a5c1837b01a7dbb9d42\firebase-auth-16.0.5\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\26774e56a3d91df2a8bfa4b92707d88e\firebase-auth-interop-16.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\26774e56a3d91df2a8bfa4b92707d88e\firebase-auth-interop-16.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-core:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\b39388061267a79d2c4d13aee990a498\firebase-core-16.0.4\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\b39388061267a79d2c4d13aee990a498\firebase-core-16.0.4\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\46a7db3082096acee99ea3af279ec7b3\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\46a7db3082096acee99ea3af279ec7b3\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\461a4c998ff8e990e6c49039a2aab71a\play-services-measurement-api-16.0.2\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\461a4c998ff8e990e6c49039a2aab71a\play-services-measurement-api-16.0.2\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1dab02304e43fe6421d08c046e786973\firebase-analytics-impl-16.2.2\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1dab02304e43fe6421d08c046e786973\firebase-analytics-impl-16.2.2\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\bd21e47682153956043c909f9aaeb11a\firebase-iid-interop-16.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\bd21e47682153956043c909f9aaeb11a\firebase-iid-interop-16.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\869448017830ffd2f53a06f0d8e7014d\play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\869448017830ffd2f53a06f0d8e7014d\play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\6e1781e27b1b83a90d912a16e19889a5\play-services-places-placereport-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\6e1781e27b1b83a90d912a16e19889a5\play-services-places-placereport-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0687a17fea9559935267ef209e9037ab\firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0687a17fea9559935267ef209e9037ab\firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\558d280b88319abe242fe12f783b7f21\play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\558d280b88319abe242fe12f783b7f21\play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1ca31ed07f7fc7d111ad25440013447f\play-services-stats-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1ca31ed07f7fc7d111ad25440013447f\play-services-stats-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\86f8bfe470027fa0e698fa5e51f1b7fe\firebase-measurement-connector-17.0.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\86f8bfe470027fa0e698fa5e51f1b7fe\firebase-measurement-connector-17.0.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f6a88a7340e6f5c50bd30ad65425bc3b\play-services-ads-identifier-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f6a88a7340e6f5c50bd30ad65425bc3b\play-services-ads-identifier-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\542a160e360ec40eca1f29e7404dd432\play-services-basement-16.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\542a160e360ec40eca1f29e7404dd432\play-services-basement-16.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\a3ff2eca7252824f3032c9cd30bbbf87\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\a3ff2eca7252824f3032c9cd30bbbf87\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f296d02545fd9a6db1a303d4f9fd8b9f\crashlytics-2.9.5\AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f296d02545fd9a6db1a303d4f9fd8b9f\crashlytics-2.9.5\AndroidManifest.xml:11:5-17:19
+MERGED from [:annca] E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\annca\build\.transforms\12137d1ff4e131cc1c614d4436c9854c\annca-release\AndroidManifest.xml:13:5-16:19
+MERGED from [:annca] E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\annca\build\.transforms\12137d1ff4e131cc1c614d4436c9854c\annca-release\AndroidManifest.xml:13:5-16:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\b76df1f8d19c8726d45cf4a2c1f63219\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\b76df1f8d19c8726d45cf4a2c1f63219\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\d741c21f4900f07a6391b2ba92aa6163\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\d741c21f4900f07a6391b2ba92aa6163\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\7cb9556a3b881e6ea6aaeecfc19c4523\crashlytics-core-2.6.4\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\7cb9556a3b881e6ea6aaeecfc19c4523\crashlytics-core-2.6.4\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\8a4730995a3d655aa4a23b1e46614d14\answers-1.4.3\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\8a4730995a3d655aa4a23b1e46614d14\answers-1.4.3\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\a77a7a92bcc979c2dcb6d14214f190d4\beta-1.2.10\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\a77a7a92bcc979c2dcb6d14214f190d4\beta-1.2.10\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f677dd8169d68649f6e020ab5ec8e1f9\fabric-1.4.4\AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f677dd8169d68649f6e020ab5ec8e1f9\fabric-1.4.4\AndroidManifest.xml:31:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\843fcedeb25299d029d34b8d3dbeb782\play-services-measurement-base-16.0.3\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\843fcedeb25299d029d34b8d3dbeb782\play-services-measurement-base-16.0.3\AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\b76df1f8d19c8726d45cf4a2c1f63219\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from [:annca] E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\annca\build\.transforms\12137d1ff4e131cc1c614d4436c9854c\annca-release\AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:32:9-41
-	android:allowBackup
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:30:9-35
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:27:9-41
+	android:largeHeap
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:28:9-33
 	android:icon
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:31:9-51
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:26:9-45
+	android:allowBackup
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:25:9-35
 	android:theme
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:33:9-52
-activity#com.cpm.PnGSupervisor.SplashScreenActivity
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:34:9-43:20
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:29:9-52
+activity#com.cpm.GodrejSupervisor.SplashScreenActivity
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:30:9-39:20
 	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:37:13-49
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:33:13-49
 	android:label
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:36:13-45
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:32:13-45
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:35:13-70
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:38:13-42:29
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:31:13-73
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:34:13-38:29
 action#android.intent.action.MAIN
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:39:17-69
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:35:17-69
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:39:25-66
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:35:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:41:17-77
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:37:17-77
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:41:27-74
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:37:27-74
 activity#com.cpm.autoupdate.AutoupdateActivity
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:44:9-46:52
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:40:9-42:52
 	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:46:13-49
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:42:13-49
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:45:13-65
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:41:13-65
 activity#com.cpm.web.ShowUpdateActivity
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:47:9-49:52
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:43:9-45:52
 	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:49:13-49
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:45:13-49
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:48:13-58
-activity#com.cpm.PnGSupervisor.MainActivity
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:50:9-52:52
-	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:52:13-49
-	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:51:13-62
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:44:13-58
 activity#com.cpm.download.CompleteDownloadActivity
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:53:9-55:52
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:46:9-48:52
 	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:55:13-49
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:48:13-49
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:54:13-69
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:47:13-69
 activity#com.cpm.dailyentry.DailyEntryScreen
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:56:9-59:52
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:49:9-52:52
 	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:59:13-49
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:52:13-49
 	android:label
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:58:13-39
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:51:13-39
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:57:13-63
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:50:13-63
 activity#com.cpm.upload.UploadOptionActivity
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:60:9-62:52
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:53:9-55:52
 	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:62:13-49
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:55:13-49
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:61:13-63
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:54:13-63
 activity#com.cpm.upload.UploadDataActivity
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:63:9-65:52
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:56:9-58:52
 	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:65:13-49
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:58:13-49
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:64:13-61
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:57:13-61
 activity#com.cpm.upload.CheckoutNUpload
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:66:9-68:52
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:59:9-61:52
 	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:68:13-49
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:61:13-49
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:67:13-58
-activity#com.cpm.upload.UploadAllImageActivity
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:69:9-71:52
-	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:71:13-49
-	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:70:13-65
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:60:13-58
 activity#com.cpm.dailyentry.StoreEntry
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:72:9-75:52
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:62:9-65:52
 	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:75:13-49
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:65:13-49
 	android:label
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:74:13-40
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:64:13-40
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:73:13-57
-activity#com.cpm.dailyentry.StoreType
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:76:9-78:52
-	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:78:13-49
-	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:77:13-56
-activity#com.cpm.dailyentry.DeepFreezerActivity
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:79:9-82:55
-	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:81:13-49
-	android:windowSoftInputMode
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:82:13-52
-	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:80:13-66
-activity#com.cpm.dailyentry.MccainType
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:83:9-85:52
-	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:85:13-49
-	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:84:13-57
-activity#com.cpm.dailyentry.OpeningStock
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:86:9-91:55
-	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:90:13-49
-	android:label
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:89:13-61
-	android:windowSoftInputMode
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:91:13-52
-	android:configChanges
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:88:13-74
-	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:87:13-59
-activity#com.cpm.dailyentry.ClosingStock
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:92:9-97:55
-	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:96:13-49
-	android:label
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:95:13-62
-	android:windowSoftInputMode
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:97:13-52
-	android:configChanges
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:94:13-74
-	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:93:13-59
-activity#com.cpm.dailyentry.MidDayStock
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:98:9-103:55
-	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:102:13-49
-	android:label
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:101:13-60
-	android:windowSoftInputMode
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:103:13-52
-	android:configChanges
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:100:13-74
-	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:99:13-58
-activity#com.cpm.dailyentry.PromotionActivity
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:104:9-109:55
-	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:108:13-49
-	android:label
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:107:13-38
-	android:windowSoftInputMode
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:109:13-52
-	android:configChanges
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:106:13-74
-	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:105:13-64
-activity#com.cpm.dailyentry.AssetActivity
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:110:9-115:55
-	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:114:13-49
-	android:label
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:113:13-34
-	android:windowSoftInputMode
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:115:13-52
-	android:configChanges
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:112:13-74
-	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:111:13-60
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:63:13-57
 activity#com.cpm.dailyentry.NonWorkingReason
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:116:9-118:52
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:66:9-68:52
 	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:118:13-49
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:68:13-49
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:117:13-63
-activity#com.cpm.dailyentry.FoodStore
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:119:9-123:55
-	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:122:13-49
-	android:windowSoftInputMode
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:123:13-52
-	android:configChanges
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:121:13-74
-	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:120:13-56
-activity#com.cpm.dailyentry.FacingCompetitor
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:124:9-129:55
-	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:128:13-49
-	android:label
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:127:13-46
-	android:windowSoftInputMode
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:129:13-52
-	android:configChanges
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:126:13-74
-	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:125:13-63
-activity#com.cpm.dailyentry.UploadSelect
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:130:9-134:55
-	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:133:13-49
-	android:windowSoftInputMode
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:134:13-52
-	android:configChanges
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:132:13-74
-	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:131:13-59
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:67:13-63
 activity#com.cpm.dailyentry.CheckOutStoreActivity
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:135:9-139:55
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:69:9-73:55
 	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:138:13-49
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:72:13-49
 	android:windowSoftInputMode
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:139:13-52
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:73:13-52
 	android:configChanges
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:137:13-74
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:71:13-74
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:136:13-68
-activity#com.cpm.dailyentry.CallsActivity
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:140:9-145:55
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:70:13-68
+activity#com.cpm.GodrejSupervisor.MainMenuActivity
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:74:9-78:59
 	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:144:13-49
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:77:13-49
 	android:label
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:143:13-34
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:76:13-38
+	android:theme
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:78:13-56
+	android:name
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:75:13-69
+activity#com.cpm.dailyentry.VisitorLoginActivity
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:80:9-86:68
+	android:screenOrientation
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:84:13-49
+	android:label
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:83:13-65
 	android:windowSoftInputMode
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:145:13-52
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:86:13-65
 	android:configChanges
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:142:13-74
-	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:141:13-60
-activity#com.cpm.dailyentry.Performance
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:146:9-150:55
-	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:149:13-49
-	android:windowSoftInputMode
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:150:13-52
-	android:configChanges
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:148:13-74
-	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:147:13-58
-activity#com.cpm.PnGSupervisor.MenuActivity
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:151:9-155:59
-	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:154:13-49
-	android:label
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:153:13-56
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:82:13-74
 	android:theme
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:155:13-56
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:85:13-56
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:152:13-62
-activity#com.cpm.PnGSupervisor.MainMenuActivity
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:156:9-160:59
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:81:13-67
+activity#com.cpm.GodrejSupervisor.LoginActivity
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:88:9-92:59
 	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:159:13-49
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:91:13-49
 	android:label
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:158:13-38
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:90:13-45
 	android:theme
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:160:13-56
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:92:13-56
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:157:13-66
-activity#com.cpm.PnGSupervisor.LoginActivity
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:161:9-165:59
-	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:164:13-49
-	android:label
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:163:13-45
-	android:theme
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:165:13-56
-	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:162:13-63
-activity#com.cpm.dailyentry.CompetionMenuActivity
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:166:9-170:59
-	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:169:13-49
-	android:label
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:168:13-66
-	android:theme
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:170:13-56
-	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:167:13-68
-activity#com.cpm.dailyentry.CompetitionFaceupActivity
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:171:9-176:59
-	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:175:13-49
-	android:label
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:174:13-70
-	android:configChanges
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:173:13-74
-	android:theme
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:176:13-56
-	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:172:13-72
-activity#com.cpm.dailyentry.CompetitionAditionalPOIActivity
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:177:9-183:55
-	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:181:13-49
-	android:label
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:180:13-43
-	android:windowSoftInputMode
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:183:13-52
-	android:configChanges
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:179:13-74
-	android:theme
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:182:13-56
-	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:178:13-78
-activity#com.cpm.dailyentry.CompetitionPromotionsActivity
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:184:9-190:55
-	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:188:13-49
-	android:label
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:187:13-38
-	android:windowSoftInputMode
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:190:13-52
-	android:configChanges
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:186:13-74
-	android:theme
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:189:13-56
-	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:185:13-76
-activity#com.cpm.dailyentry.AdditionalPOIActivity
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:191:9-197:55
-	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:195:13-49
-	android:label
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:194:13-43
-	android:windowSoftInputMode
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:197:13-52
-	android:configChanges
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:193:13-74
-	android:theme
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:196:13-56
-	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:192:13-68
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:89:13-66
 activity#com.cpm.dailyentry.AttendenceActivity
-ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:198:9-205:20
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:93:9-98:68
 	android:screenOrientation
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:202:13-49
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:97:13-49
 	android:label
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:201:13-62
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:96:13-62
 	android:configChanges
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:200:13-74
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:95:13-74
 	android:theme
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:203:13-56
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:98:13-56
 	android:name
-		ADDED from E:\P&GSupervisor\godrej\src\main\AndroidManifest.xml:199:13-65
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:94:13-65
+activity#com.cpm.dailyentry.StoreImageActivity
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:99:9-104:59
+	android:screenOrientation
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:103:13-49
+	android:label
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:102:13-62
+	android:configChanges
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:101:13-74
+	android:theme
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:104:13-56
+	android:name
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:100:13-65
+activity#com.cpm.dailyentry.StoreAuditActivity
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:105:9-110:59
+	android:screenOrientation
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:109:13-49
+	android:label
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:108:13-62
+	android:configChanges
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:107:13-74
+	android:theme
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:110:13-56
+	android:name
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:106:13-65
+activity#com.cpm.dailyentry.StoreListUsingSerarchActivrty
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:112:9-117:59
+	android:screenOrientation
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:116:13-49
+	android:label
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:115:13-62
+	android:configChanges
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:114:13-74
+	android:theme
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:117:13-56
+	android:name
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:113:13-76
+activity#io.github.memfis19.annca.internal.ui.camera.Camera1Activity
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:119:9-122:54
+	android:screenOrientation
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:121:13-49
+	android:theme
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:122:13-51
+	android:name
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:120:13-87
+activity#io.github.memfis19.annca.internal.ui.camera2.Camera2Activity
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:123:9-126:54
+	android:screenOrientation
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:125:13-49
+	android:theme
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:126:13-51
+	android:name
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:124:13-88
+activity#io.github.memfis19.annca.internal.ui.preview.PreviewActivity
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:127:9-130:54
+	android:screenOrientation
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:129:13-49
+	android:theme
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:130:13-51
+	android:name
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:128:13-88
+meta-data#firebase_crashlytics_collection_enabled
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:132:9-134:37
+	android:value
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:134:13-34
+	android:name
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:133:13-67
+uses-library#org.apache.http.legacy
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:149:9-151:40
+	android:required
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:151:13-37
+	android:name
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:150:13-50
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:144:13-146:58
+	android:resource
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:146:17-55
+	android:name
+		ADDED from E:\NeerajProjects\GodrejSuperviser\GodrejSuperviser\godrej\src\main\AndroidManifest.xml:145:17-67
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\9eb280b4a45ac6f0d6bed3ad61cb0188\play-services-maps-16.0.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\9eb280b4a45ac6f0d6bed3ad61cb0188\play-services-maps-16.0.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\9eb280b4a45ac6f0d6bed3ad61cb0188\play-services-maps-16.0.0\AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\ebf6b0a6070c3af302577ec6f4fc94df\play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\ebf6b0a6070c3af302577ec6f4fc94df\play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\ebf6b0a6070c3af302577ec6f4fc94df\play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\ebf6b0a6070c3af302577ec6f4fc94df\play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\ebf6b0a6070c3af302577ec6f4fc94df\play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\ebf6b0a6070c3af302577ec6f4fc94df\play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\ebf6b0a6070c3af302577ec6f4fc94df\play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\ebf6b0a6070c3af302577ec6f4fc94df\play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\ebf6b0a6070c3af302577ec6f4fc94df\play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\4c5557865fe96a5c1837b01a7dbb9d42\firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\4c5557865fe96a5c1837b01a7dbb9d42\firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\4c5557865fe96a5c1837b01a7dbb9d42\firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\4c5557865fe96a5c1837b01a7dbb9d42\firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\4c5557865fe96a5c1837b01a7dbb9d42\firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\4c5557865fe96a5c1837b01a7dbb9d42\firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\4c5557865fe96a5c1837b01a7dbb9d42\firebase-auth-16.0.5\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\4c5557865fe96a5c1837b01a7dbb9d42\firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\4c5557865fe96a5c1837b01a7dbb9d42\firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\46a7db3082096acee99ea3af279ec7b3\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\46a7db3082096acee99ea3af279ec7b3\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\4c5557865fe96a5c1837b01a7dbb9d42\firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\4c5557865fe96a5c1837b01a7dbb9d42\firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\4c5557865fe96a5c1837b01a7dbb9d42\firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\4c5557865fe96a5c1837b01a7dbb9d42\firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\4c5557865fe96a5c1837b01a7dbb9d42\firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\46a7db3082096acee99ea3af279ec7b3\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\46a7db3082096acee99ea3af279ec7b3\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\46a7db3082096acee99ea3af279ec7b3\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1dab02304e43fe6421d08c046e786973\firebase-analytics-impl-16.2.2\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1dab02304e43fe6421d08c046e786973\firebase-analytics-impl-16.2.2\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1dab02304e43fe6421d08c046e786973\firebase-analytics-impl-16.2.2\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\1dab02304e43fe6421d08c046e786973\firebase-analytics-impl-16.2.2\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\486247d589426281ddab0be918746b52\firebase-analytics-16.0.4\AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0f1e53cbe3449eba3d7371c90fe7391e\firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\869448017830ffd2f53a06f0d8e7014d\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\869448017830ffd2f53a06f0d8e7014d\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\869448017830ffd2f53a06f0d8e7014d\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\869448017830ffd2f53a06f0d8e7014d\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0687a17fea9559935267ef209e9037ab\firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0687a17fea9559935267ef209e9037ab\firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0687a17fea9559935267ef209e9037ab\firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0687a17fea9559935267ef209e9037ab\firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\0687a17fea9559935267ef209e9037ab\firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\542a160e360ec40eca1f29e7404dd432\play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\542a160e360ec40eca1f29e7404dd432\play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\542a160e360ec40eca1f29e7404dd432\play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f296d02545fd9a6db1a303d4f9fd8b9f\crashlytics-2.9.5\AndroidManifest.xml:12:9-16:38
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f296d02545fd9a6db1a303d4f9fd8b9f\crashlytics-2.9.5\AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f296d02545fd9a6db1a303d4f9fd8b9f\crashlytics-2.9.5\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f296d02545fd9a6db1a303d4f9fd8b9f\crashlytics-2.9.5\AndroidManifest.xml:16:13-35
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\neerajg\.gradle\caches\transforms-2\files-2.1\f296d02545fd9a6db1a303d4f9fd8b9f\crashlytics-2.9.5\AndroidManifest.xml:13:13-75

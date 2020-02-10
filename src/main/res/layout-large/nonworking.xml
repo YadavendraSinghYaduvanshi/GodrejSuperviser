@@ -1,29 +1,28 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/home_root"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@drawable/login_header"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
-    <!-- Include Header Bar -->
-
-    <RelativeLayout
-        android:id="@+id/mainpage_header"
-        android:layout_width="fill_parent"
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/titletext_bg"
-        android:padding="5sp" >
+        android:theme="@style/AppTheme.AppBarOverlay">
 
-        <TextView
-            android:id="@+id/mainpage_remembermetext"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_centerVertical="true"
-            android:text="Main Menu"
-            android:textColor="#ffffff"
-            android:textSize="14sp" />
-    </RelativeLayout>
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
 
     <RelativeLayout
         android:id="@+id/layout1"
@@ -31,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/mainpage_header"
         android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp" >
+        android:layout_marginRight="5dp">
 
         <TextView
             android:id="@+id/textView2"
@@ -41,7 +40,7 @@
             android:layout_marginLeft="3sp"
             android:layout_marginTop="20dp"
             android:text="Reason"
-            android:textColor="#f26d20"
+            android:textColor="@color/colorPrimary"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -49,33 +48,19 @@
             android:id="@+id/spinner2"
             android:layout_width="match_parent"
             android:layout_height="50sp"
-            android:layout_alignParentLeft="true"
             android:layout_below="@id/textView2"
+            android:layout_alignParentLeft="true"
             android:layout_marginTop="5dp"
 
             />
-
-        <!-- <Spinner
-            android:id="@+id/spinner3"
-            android:layout_width="match_parent"
-            android:layout_height="50sp"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@id/spinner2"
-            android:layout_marginTop="5dp"
-     
-           /> -->
-
-
-
-
 
         <TextView
             android:id="@+id/testview4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignBottom="@+id/spinner2"
-            android:layout_marginBottom="14dp"
             android:layout_marginLeft="15sp"
+            android:layout_marginBottom="14dp"
             android:layout_toRightOf="@+id/spinner2"
             android:text="Capture Photo"
             android:visibility="invisible" />
@@ -103,11 +88,10 @@
 
         <ImageButton
             android:id="@+id/imgcam"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_centerInParent="true"
-            android:background="@null"
-            android:src="@drawable/camera" />
+            android:background="@drawable/ic_menu_camera_black" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -116,17 +100,16 @@
         android:layout_height="0dp"
         android:layout_weight="20"
         android:orientation="vertical"
-        android:visibility="gone"
-        >
+        android:visibility="gone">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Remark"
+            android:layout_above="@+id/reasontxt"
             android:paddingLeft="10dp"
             android:paddingBottom="10dp"
-            android:textColor="#f26d20"
-            android:layout_above="@+id/reasontxt"
+            android:text="Remark"
+            android:textColor="@color/colorPrimary"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -135,26 +118,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="07dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/rouded_corner"
             android:ems="20"
-            />
+            android:hint="Please enter remark"
+            android:padding="10dp"
+            android:textColor="@color/black" />
     </RelativeLayout>
 
 
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        >
-
-        <Button
-            android:id="@+id/save"
-            android:layout_width="100sp"
-            android:layout_height="40sp"
-            android:layout_centerInParent="true"
-            android:background="#f26d20"
-            android:text="SAVE"
-            android:textColor="#ffffff"
-            android:textSize="17sp" />
-    </RelativeLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/ic_save"
+        android:textColor="@color/white"
+        android:textSize="@dimen/store_entry_text_size" />
 
 </LinearLayout>

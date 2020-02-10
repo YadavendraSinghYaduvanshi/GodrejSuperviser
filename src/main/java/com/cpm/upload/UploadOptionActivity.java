@@ -2,7 +2,6 @@ package com.cpm.upload;
 
 import java.util.ArrayList;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -16,13 +15,12 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.cpm.Constants.CommonString;
-import com.cpm.GetterSetter.StoreBean;
 import com.cpm.dailyentry.DailyEntryScreen;
-import com.cpm.database.GSKDatabase;
+import com.cpm.database.GODREJDatabase;
 import com.cpm.delegates.CoverageBean;
 
 import com.cpm.message.AlertMessage;
-import com.cpm.capitalfoods.R;
+import com.cpm.godrejsupervisor.R;
 import com.cpm.xmlGetterSetter.JourneyPlanGetterSetter;
 
 public class UploadOptionActivity extends AppCompatActivity implements View.OnClickListener{
@@ -30,7 +28,7 @@ public class UploadOptionActivity extends AppCompatActivity implements View.OnCl
 	private Intent intent;
 	private String date;
 	private SharedPreferences preferences;
-	private static GSKDatabase database;
+	private static GODREJDatabase database;
 	ArrayList<CoverageBean> cdata = new ArrayList<CoverageBean>();
 
 	JourneyPlanGetterSetter storestatus = new JourneyPlanGetterSetter();
@@ -41,7 +39,6 @@ public class UploadOptionActivity extends AppCompatActivity implements View.OnCl
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.upload_option);
-
 		Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 		setSupportActionBar(toolbar);
 
@@ -54,123 +51,13 @@ public class UploadOptionActivity extends AppCompatActivity implements View.OnCl
 		preferences = PreferenceManager.getDefaultSharedPreferences(this);
 		date = preferences.getString(CommonString.KEY_DATE, null);
 
-		database = new GSKDatabase(this);
+		database = new GODREJDatabase(this);
 		database.open();
 
 		getSupportActionBar().setHomeButtonEnabled(true);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 	}
-
-/*	public void onButtonClick(View v) {
-		switch (v.getId()) {
-		case R.id.upload_data:
-
-			//cdata = database.getCoverageData(date);
-
-			if (cdata.size() == 0) {
-
-				Toast.makeText(getBaseContext(), AlertMessage.MESSAGE_NO_DATA,
-						Toast.LENGTH_LONG).show();
-
-			} else {
-
-				if ((validate_data())) {
-
-					Intent i = new Intent(UploadOptionActivity.this,
-							UploadDataActivity.class);
-					startActivity(i);
-					UploadOptionActivity.this.finish();
-				}
-
-				else {
-					Toast.makeText(getBaseContext(),
-							AlertMessage.MESSAGE_NO_DATA, Toast.LENGTH_LONG)
-							.show();
-				}
-
-			}
-
-			break;
-		case R.id.upload_image:
-
-//			cdata = database.getCoverageData(date, null);
-//
-//			if (cdata.size() == 0) {
-//
-//				Toast.makeText(getBaseContext(), AlertMessage.MESSAGE_NO_IMAGE,
-//						Toast.LENGTH_LONG).show();
-//
-//			}
-//
-//			else {
-//
-//				if (validate()) {
-//
-//					intent = new Intent(this, UploadImageActivity.class);
-//					startActivity(intent);
-//					finish();
-//				} else {
-//					Toast.makeText(getBaseContext(),
-//							AlertMessage.MESSAGE_DATA_FIRST, Toast.LENGTH_LONG)
-//							.show();
-//				}
-//			}
-//			break;
-			
-			
-			
-		//	database.getCoverageData(visitdate)
-
-		}
-	}*/
-
-
-	/*public boolean validate_data() {
-		boolean result = false;
-
-		database.open();
-		cdata = database.getCoverageData(date);
-
-		for (int i = 0; i < cdata.size(); i++) {
-
-			storestatus = database.getStoreStatus(cdata.get(i).getStoreId());
-
-			if (!storestatus.getUploadStatus().get(0).equalsIgnoreCase(CommonString.KEY_D)) {
-				if ((storestatus.getCheckOutStatus().get(0).equalsIgnoreCase(
-						CommonString.KEY_C)
-						|| storestatus.getUploadStatus().get(0).equalsIgnoreCase(
-						CommonString.KEY_P) || storestatus.getUploadStatus().get(0)
-						.equalsIgnoreCase(CommonString.STORE_STATUS_LEAVE))) {
-					result = true;
-					break;
-
-				}
-			}
-		}
-
-		return result;
-	}
-*/
-/*
-	public boolean validate() {
-		boolean result = false;
-
-	database.open();
-		cdata = database.getCoverageData(date);
-
-		for (int i = 0; i < cdata.size(); i++) {
-
-			if (cdata.get(i).getStatus().equalsIgnoreCase(CommonString.KEY_D)) {
-				result = true;
-				break;
-
-			}
-		}
-
-		return result;
-	}*/
-
 	@Override
 	protected void onStop() {
 		// TODO Auto-generated method stub
@@ -193,67 +80,34 @@ public class UploadOptionActivity extends AppCompatActivity implements View.OnCl
 		int id = v.getId();
 
 		if(id == R.id.btn_upload_data){
-
 			cdata = database.getCoverageData(date);
-
 			if (cdata.size() == 0) {
-
-				Toast.makeText(getBaseContext(), AlertMessage.MESSAGE_NO_DATA,
-						Toast.LENGTH_LONG).show();
-
+				Toast.makeText(getBaseContext(), AlertMessage.MESSAGE_NO_DATA, Toast.LENGTH_LONG).show();
 			} else {
-
-
 				if (cdata.size()>=0) {
-
-					Intent i = new Intent(getBaseContext(),
-							UploadDataActivity.class);
+					Intent i = new Intent(getBaseContext(), UploadDataActivity.class);
 					i.putExtra("UploadAll", false);
 					startActivity(i);
-
 					finish();
-
 				}
 				else {
-					Toast.makeText(getBaseContext(),
-							AlertMessage.MESSAGE_NO_DATA, Toast.LENGTH_LONG)
-							.show();
+					Toast.makeText(getBaseContext(), AlertMessage.MESSAGE_NO_DATA, Toast.LENGTH_LONG).show();
 				}
 
 			}
 
 		}else if(id == R.id.btn_upload_image){
-
-
 			cdata = database.getCoverageData(date);
-
 			if (cdata.size() == 0) {
 
 				Toast.makeText(getBaseContext(), AlertMessage.MESSAGE_NO_IMAGE,
 						Toast.LENGTH_LONG).show();
+			}
+
 
 			}
 
-			else {
 
-			//if (validate()) {
-
-
-				Intent i = new Intent(getBaseContext(),
-						UploadAllImageActivity.class);
-				//i.putExtra("UploadAll", false);
-				startActivity(i);
-
-				finish();
-
-			} /*else {
-					Toast.makeText(getBaseContext(),
-							AlertMessage.MESSAGE_DATA_FIRST, Toast.LENGTH_LONG)
-							.show();
-				}*/
-			}
-
-		//}
 	}
 
 	@Override

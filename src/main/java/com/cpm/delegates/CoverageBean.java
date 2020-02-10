@@ -1,291 +1,177 @@
 package com.cpm.delegates;
 
-public class CoverageBean
-{
-	protected int MID;
-	
-	protected String storeId;
-	protected String merchanId;
-	protected String dataSource;
-	protected String davId;
-	
-	protected String coverageReamark;
-
-
-
-	
-	public String getCoverageReamark() {
-		return coverageReamark;
-	}
-
-	public void setCoverageReamark(String coverageReamark) {
-		this.coverageReamark = coverageReamark;
-	}
-
-	public String getDataSource() {
-		return dataSource;
-	}
-
-	public void setDataSource(String dataSource) {
-		this.dataSource = dataSource;
-	}
-
-	public String getDavId() {
-		return davId;
-	}
-
-	public void setDavId(String davId) {
-		this.davId = davId;
-	}
-
-	public String getMerchanId() {
-		return merchanId;
-	}
-
-	public void setMerchanId(String merchanId) {
-		this.merchanId = merchanId;
-	}
-
-	protected String image1;
-	protected String selfieImage;
-	public String getSelfieImage() {
-		return selfieImage;
-	}
-
-	public void setSelfieImage(String selfieImage) {
-		this.selfieImage = selfieImage;
-	}
-
-	protected String image2;
-	protected String remarkis;
-	protected String coveargestatus;
-	public String getCoveargestatus() {
-		return coveargestatus;
-	}
-
-	public void setCoveargestatus(String coveargestatus) {
-		this.coveargestatus = coveargestatus;
-	}
-
-	public String getRemarkis() {
-		return remarkis;
-	}
-
-	public void setRemarkis(String remarkis) {
-		this.remarkis = remarkis;
-	}
-
-	public String getImage1() {
-		return image1;
-	}
-
-	public void setImage1(String image1) {
-		this.image1 = image1;
-	}
-
-	public String getImage2() {
-		return image2;
-	}
-
-	public void setImage2(String image2) {
-		this.image2 = image2;
-	}
-
-	protected String Remark;
-	
-	public String getRemark() {
-		return Remark;
-	}
-
-	public void setRemark(String remark) {
-		Remark = remark;
-	}
-
-	protected String userId;
-	
-	protected String inTime;
-	
-	protected String outTime;
-	
-	protected String visitDate;
-	
-	protected String keycontactId;
-	
-	protected String isdDeploy;
-	
-	protected String uploadStatus;
-	
-	private String latitude;
-	
-	private String longitude;
+public class CoverageBean {
+    protected int MID;
+    protected String storeId;
+    protected String remarkis;
+    protected String coveargestatus;
 
-	public String ENTRY_ALLOW;
+    public String getCoveargestatus() {
+        return coveargestatus;
+    }
 
+    public void setCoveargestatus(String coveargestatus) {
+        this.coveargestatus = coveargestatus;
+    }
 
-	public String getENTRY_ALLOW() {
-		return ENTRY_ALLOW;
-	}
+    public String getRemarkis() {
+        return remarkis;
+    }
 
-	public void setENTRY_ALLOW(String ENTRY_ALLOW) {
-		this.ENTRY_ALLOW = ENTRY_ALLOW;
-	}
+    public void setRemarkis(String remarkis) {
+        this.remarkis = remarkis;
+    }
 
 
+    protected String Remark;
 
+    public String getRemark() {
+        return Remark;
+    }
 
+    public void setRemark(String remark) {
+        Remark = remark;
+    }
 
+    protected String userId;
 
-	
-	private String reasonid="";
-	
-	private String sub_reasonId="";
+    protected String inTime;
 
-	public String getImage02() {
-		return image02;
-	}
+    protected String outTime;
 
-	public void setImage02(String image02) {
-		this.image02 = image02;
-	}
+    protected String visitDate;
+    private String latitude;
+    private String longitude;
+    private String reasonid = "";
 
-	private String image02="";
+    public String getImage02() {
+        return image02;
+    }
 
-	
-	public String getSub_reasonId() {
-		return sub_reasonId;
-	}
+    public void setImage02(String image02) {
+        this.image02 = image02;
+    }
 
-	public void setSub_reasonId(String sub_reasonId) {
-		this.sub_reasonId = sub_reasonId;
-	}
+    private String image02 = "";
+    private String reason = "";
+    private String status = "N";
+    private String image = "";
 
-	private String reason="";
-	
-	private String status="N";
-	
-	private String image="";
+    public String getImage() {
+        return image;
+    }
 
+    public void setImage(String image) {
+        this.image = image;
+    }
 
-	public String getImage() {
-		return image;
-	}
+    public String getStatus() {
+        return status;
+    }
 
-	public void setImage(String image) {
-		this.image = image;
-	}
+    public void setStatus(String status) {
+        this.status = status;
+    }
 
-	public String getStatus() {
-		return status;
-	}
+    public int getMID() {
+        return MID;
+    }
 
-	public void setStatus(String status) {
-		this.status = status;
-	}
+    public void setMID(int mID) {
+        MID = mID;
+    }
 
-	public int getMID() {
-		return MID;
-	}
+    public String getStoreId() {
+        return storeId;
+    }
 
-	public void setMID(int mID) {
-		MID = mID;
-	}
+    public void setStoreId(String storeId) {
+        this.storeId = storeId;
+    }
 
-	public String getStoreId() {
-		return storeId;
-	}
+    public String getUserId() {
+        return userId;
+    }
 
-	public void setStoreId(String storeId) {
-		this.storeId = storeId;
-	}
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
 
-	public String getUserId() {
-		return userId;
-	}
+    public String getInTime() {
+        return inTime;
+    }
 
-	public void setUserId(String userId) {
-		this.userId = userId;
-	}
+    public void setInTime(String inTime) {
+        this.inTime = inTime;
+    }
 
-	public String getInTime() {
-		return inTime;
-	}
+    public String getOutTime() {
+        return outTime;
+    }
 
-	public void setInTime(String inTime) {
-		this.inTime = inTime;
-	}
+    public void setOutTime(String outTime) {
+        this.outTime = outTime;
+    }
 
-	public String getOutTime() {
-		return outTime;
-	}
+    public String getVisitDate() {
+        return visitDate;
+    }
 
-	public void setOutTime(String outTime) {
-		this.outTime = outTime;
-	}
+    public void setVisitDate(String visitDate) {
+        this.visitDate = visitDate;
+    }
 
-	public String getVisitDate() {
-		return visitDate;
-	}
+    public String getLatitude() {
+        return latitude;
+    }
 
-	public void setVisitDate(String visitDate) {
-		this.visitDate = visitDate;
-	}
+    public void setLatitude(String latitude) {
+        this.latitude = latitude;
+    }
 
-	public String getKeycontactId() {
-		return keycontactId;
-	}
+    public String getLongitude() {
+        return longitude;
+    }
 
-	public void setKeycontactId(String keycontactId) {
-		this.keycontactId = keycontactId;
-	}
+    public void setLongitude(String longitude) {
+        this.longitude = longitude;
+    }
 
-	public String getIsdDeploy() {
-		return isdDeploy;
-	}
+    public String getReasonid() {
+        return reasonid;
+    }
 
-	public void setIsdDeploy(String isdDeploy) {
-		this.isdDeploy = isdDeploy;
-	}
+    public void setReasonid(String reasonid) {
+        this.reasonid = reasonid;
+    }
 
-	public String getUploadStatus() {
-		return uploadStatus;
-	}
+    public String getReason() {
+        return reason;
+    }
 
-	public void setUploadStatus(String uploadStatus) {
-		this.uploadStatus = uploadStatus;
-	}
+    public void setReason(String reason) {
+        this.reason = reason;
+    }
 
-	public String getLatitude() {
-		return latitude;
-	}
 
-	public void setLatitude(String latitude) {
-		this.latitude = latitude;
-	}
+    protected String search_storeCODE;
 
-	public String getLongitude() {
-		return longitude;
-	}
+    public String getSearch_storeCODE() {
+        return search_storeCODE;
+    }
 
-	public void setLongitude(String longitude) {
-		this.longitude = longitude;
-	}
+    public void setSearch_storeCODE(String search_storeCODE) {
+        this.search_storeCODE = search_storeCODE;
+    }
 
-	public String getReasonid() {
-		return reasonid;
-	}
+    public String getSearch_storeNAME() {
+        return search_storeNAME;
+    }
 
-	public void setReasonid(String reasonid) {
-		this.reasonid = reasonid;
-	}
+    public void setSearch_storeNAME(String search_storeNAME) {
+        this.search_storeNAME = search_storeNAME;
+    }
 
-	public String getReason() {
-		return reason;
-	}
+    protected String search_storeNAME;
 
-	public void setReason(String reason) {
-		this.reason = reason;
-	}
-	
-	
-	
 }

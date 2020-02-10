@@ -34,7 +34,6 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/imageButton1"
         android:layout_below="@+id/imageButton1"
-        android:background="@drawable/cam"
         android:layout_marginTop="55dp"
         />
 
@@ -55,7 +54,6 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/imageButton2"
         android:layout_toRightOf="@+id/imageButton2"
-        android:background="@drawable/cam"
         android:layout_marginLeft="8dp"
          />
 
@@ -66,8 +64,7 @@
         android:layout_below="@+id/textView1"
         android:layout_marginLeft="27dp"
         android:layout_toRightOf="@+id/textView1"
-     
-        android:background="@drawable/cam" />
+        />
 
     <TextView
         android:id="@+id/textView4"
@@ -130,7 +127,6 @@
          android:layout_height="250dp"
          android:layout_alignParentLeft="true"
          android:layout_below="@+id/spinner2" >
-
      </ExpandableListView>
 
 </RelativeLayout>

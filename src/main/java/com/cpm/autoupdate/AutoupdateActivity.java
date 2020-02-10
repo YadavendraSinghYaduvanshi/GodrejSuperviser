@@ -19,15 +19,17 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.net.Uri;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.preference.PreferenceManager;
+import android.support.v4.content.FileProvider;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.cpm.Constants.CommonString;
 import com.cpm.message.AlertMessage;
-import com.cpm.capitalfoods.R;
+import com.cpm.godrejsupervisor.R;
 
 
 public class AutoupdateActivity extends Activity {
@@ -265,19 +267,33 @@ public class AutoupdateActivity extends Activity {
 			dialog.dismiss();
 
 			if (result.equals(CommonString.KEY_SUCCESS)) {
-				Intent i = new Intent(Intent.ACTION_VIEW);
-				i.setDataAndType(Uri.fromFile(new File(Environment
-						.getExternalStorageDirectory()
-						+ "/download/"
-						+ "app.apk")),
-						"application/vnd.android.package-archive");
-				startActivity(i);
+//				Intent i = new Intent(Intent.ACTION_VIEW);
+//				i.setDataAndType(Uri.fromFile(new File(Environment
+//						.getExternalStorageDirectory()
+//						+ "/download/"
+//						+ "app.apk")),
+//						"application/vnd.android.package-archive");
+//				startActivity(i);
+//
+//				AutoupdateActivity.this.finish();
 
+				File toInstall = new File(Environment.getExternalStorageDirectory() + "/download/" + "app.apk");
+				if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+					Uri apkUri = FileProvider.getUriForFile(getApplicationContext(), "com.cpm.godrejsupervisor.fileprovider", toInstall);
+					Intent intent = new Intent(Intent.ACTION_INSTALL_PACKAGE);
+					intent.setData(apkUri);
+					intent.setFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+					startActivity(intent);
+				} else {
+					Uri apkUri = Uri.fromFile(toInstall);
+					Intent intent = new Intent(Intent.ACTION_VIEW);
+					intent.setDataAndType(apkUri, "application/vnd.android.package-archive");
+					intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+					startActivity(intent);
+				}
 				AutoupdateActivity.this.finish();
 			}
-
 		}
-
 	}
 
 	class Data {
