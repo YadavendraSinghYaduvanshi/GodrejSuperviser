@@ -470,7 +470,7 @@ public class VisitorLoginActivity extends AppCompatActivity implements View.OnCl
                 SoapObject request = new SoapObject(CommonString.NAMESPACE,
                         CommonString.METHOD_NAME_UNIVERSAL_DOWNLOAD);
                 request.addProperty("UserName", emp_name);
-                request.addProperty("Type", "VISITOR_SEARCH");
+                request.addProperty("Type", "VISITOR_DETAIL");
 
                 SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
                 envelope.dotNet = true;
